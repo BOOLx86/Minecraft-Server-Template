@@ -1,1 +1,5 @@
-server.jar
+/server.jar
+/server.jar.backup
+
+/world/
+/.backup/**
