@@ -1,4 +1,4 @@
-/.backup/**
+/backup/**
 /logs/
 /world/
 
@@ -7,9 +7,12 @@
 /ops.json
 /whitelist.json
 /usercache.json
+/version.json
 
 /server.properties
 /eula.txt
 
 /server.jar
 /server.jar.backup
+
+/__pycache__/
