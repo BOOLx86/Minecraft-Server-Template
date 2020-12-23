@@ -1,4 +1,4 @@
-/backup/**
+/backup/
 /logs/
 /world/
 
@@ -10,9 +10,8 @@
 /version.json
 
 /server.properties
-/eula.txt
 
 /server.jar
-/server.jar.backup
 
 /__pycache__/
+/.vscode/
