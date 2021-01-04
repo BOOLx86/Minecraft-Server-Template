@@ -1,6 +1,12 @@
 /backup/
+/cache/
 /logs/
 /world/
+/world_nether/
+/world_the_end/
+
+/plugins/
+/mods/
 
 /banned-ips.json
 /banned-players.json
@@ -9,9 +15,19 @@
 /usercache.json
 /version.json
 
+/.console_history
+/help.yml
+/bukkit.yml
+/commands.yml
+/paper.yml
+/spigot.yml
+/permissions.yml
+/version_history.yml
+
 /server.properties
 
 /server.jar
+/server-*.jar
 
 /__pycache__/
 /.vscode/
