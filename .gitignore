@@ -22,7 +22,7 @@
 /paper.yml
 /spigot.yml
 /permissions.yml
-/version_history.yml
+/version_history.json
 
 /server.properties
 
