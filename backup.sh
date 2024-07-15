@@ -5,10 +5,11 @@ if [ "$1" == "--verbose" ] || [ "$1" == "-v" ] ; then
     verbose="--verbose"
 fi
 
+ID="$RANDOM"
 # Go through every backup entry in config.json
 for BACKUP in $(cat ./config.json                           | \
-                    sed "s:\$(date):$(date '+%Y-%m-%d'):"   | \
-                    sed "s:\$(id):$(date '+%s'):"           | \
+                    sed "s:\$(date):$(date '+%Y_%m_%d'):"   | \
+                    sed "s:\$(id):$ID:"                     | \
                 jq -r '."backups"[] | @base64' )
 do
     # Backup function, usage: backup [from] [to] [name]

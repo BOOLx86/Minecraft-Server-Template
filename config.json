@@ -31,42 +31,42 @@
     "backups": [
         {
             "from": "server.jar",
-            "to": "backup/$(date)/$(id)/server.jar",
+            "to": "backup/$(date)-$(id)/server.jar",
             "name": "Server Jar"
         },
         {
             "from": "server-bukkit.jar",
-            "to": "backup/$(date)/$(id)/server-bukkit.jar",
+            "to": "backup/$(date)-$(id)/server-bukkit.jar",
             "name": "Bukkit's Jar"
         },
         {
             "from": "server-spigot.jar",
-            "to": "backup/$(date)/$(id)/server-spigot.jar",
+            "to": "backup/$(date)-$(id)/server-spigot.jar",
             "name": "Spigot's Jar"
         },
         {
             "from": "server-sponge.jar",
-            "to": "backup/$(date)/$(id)/server-sponge.jar",
+            "to": "backup/$(date)-$(id)/server-sponge.jar",
             "name": "Sponge's Jar"
         },
         {
             "from": "server-paper.jar",
-            "to": "backup/$(date)/$(id)/server-paper.jar",
+            "to": "backup/$(date)-$(id)/server-paper.jar",
             "name": "Paper's Jar"
         },
         {
             "from": "server-fabric.jar",
-            "to": "backup/$(date)/$(id)/server-fabric.jar",
+            "to": "backup/$(date)-$(id)/server-fabric.jar",
             "name": "Fabric's Jar"
         },
         {
             "from": "server-forge.jar",
-            "to": "backup/$(date)/$(id)/server-forge.jar",
+            "to": "backup/$(date)-$(id)/server-forge.jar",
             "name": "Forge's Jar"
         },
         {
             "from": "world",
-            "to": "backup/$(date)/$(id)/world",
+            "to": "backup/$(date)-$(id)/world",
             "name": "World"
         }
     ]
