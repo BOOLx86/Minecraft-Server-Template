@@ -7,7 +7,7 @@ fi
 
 # Go through every backup entry in config.json
 for BACKUP in $(cat ./config.json                           | \
-                    sed "s:\$(date):$(date '+%d-%m-%Y'):"   | \
+                    sed "s:\$(date):$(date '+%Y-%m-%d'):"   | \
                     sed "s:\$(id):$(date '+%s'):"           | \
                 jq -r '."backups"[] | @base64' )
 do
