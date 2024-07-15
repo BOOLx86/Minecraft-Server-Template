@@ -1,6 +1,8 @@
 /backup/
 /cache/
 /logs/
+/crash-reports/
+/libraries/
 /world/
 /world_nether/
 /world_the_end/
@@ -25,6 +27,7 @@
 /version_history.json
 
 /server.properties
+/server-icon.png
 
 /server.jar
 /server-*.jar
